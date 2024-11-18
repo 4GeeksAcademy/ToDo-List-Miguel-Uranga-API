@@ -42,7 +42,7 @@ const Home = () => {
 						
 					</li>
 				))}
-				<li>{cantTareas.length != 0 ? cantTareas.length : ""} {cantTareas.length != 0 ? "item(s) left" : "No items yet"}</li>
+				<li id= "numberItems">{cantTareas.length != 0 ? cantTareas.length : ""} {cantTareas.length != 0 ? "item(s) left" : "No items yet"}</li>
 				
 			</ul>
 
