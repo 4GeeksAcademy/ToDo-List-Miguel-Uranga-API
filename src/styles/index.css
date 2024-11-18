@@ -10,3 +10,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    margin-top: 100px;
+    background-color: azure;
+}
+
+
+input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color:ghostwhite;
+}
+
+ul li{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    list-style: none;
+    background-color: ghostwhite;
+    width: 100%;
+}
+
+ul{
+    padding: 0;
+    box-shadow: 2px 15px 0px -10px ghostwhite, 2px 15px 0px -9px gainsboro,
+    2px 25px 0px -15px ghostwhite, 2px 25px 0px -14px gainsboro,  2px 15px 30px -10px gray;
+}
+
+p{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+    color: rgb(245, 201, 234);
+}
+
+#listItems{
+    font-size: 35px;
+    padding-left: 50px;
+    text-overflow: ellipsis;
+}
+
+#exFontAwesome{
+    color: rgb(230, 149, 143);
+    font-weight: lighter;
+    font-size: 20px;
+}
